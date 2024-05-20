@@ -169,15 +169,21 @@ right(90)
 forward(150)
 end_fill()
 
-
+left(180)
+forward(30)
 color("black")
-
+left(90)
+forward(100)
+left(180)
+forward(10)
+left(90)
+forward(100)
 
 # Draw lines on the door
 penup()
 goto(138, -170)  # Position the turtle for drawing lines
 pendown()
-for _ in range(4):
+for _ in range(3):
     forward(100)
     penup()
     backward(100)
